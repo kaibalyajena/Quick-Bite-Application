@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="false"
+    android:layout_centerVertical="false"
+    android:background="#FFD36E"
+    >
+    <!--    android:background="#B1BCE6"-->
+
+
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:fontFamily="@font/amaranth_bold"-->
+    <!--        android:paddingLeft="110dp"-->
+    <!--        android:text="available restaurants"-->
+    <!--        android:textColor="#2F8F9D"-->
+    <!--        android:textSize="40sp" />-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:paddingLeft="30dp"
+        app:cardBackgroundColor="#83BD75"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="200dp">
+
+        <Button
+            android:id="@+id/kathi"
+            android:layout_width="218dp"
+            android:layout_height="346dp"
+            android:layout_marginEnd="193dp"
+            android:layout_marginBottom="197dp"
+            android:background="@android:color/transparent"
+            android:text="kathi junction"
+            android:textColor="@android:color/transparent">
+        </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="238dp"
+                android:src="@drawable/kathiimage">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:fontFamily="@font/amaranth_bold"
+                android:paddingTop="15dp"
+                android:text="kathi Junction"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="186dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:paddingLeft="80dp"
+        app:cardBackgroundColor="#83BD75"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="200dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/maggi"
+            android:layout_width="179dp"
+            android:layout_height="338dp"
+            android:layout_marginEnd="193dp"
+            android:layout_marginBottom="197dp"
+            android:background="@android:color/transparent"
+            android:text="maggi"
+            android:textColor="@android:color/transparent">
+
+        </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                android:src="@drawable/maggiimage">
+
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingTop="25dp"
+                android:layout_height="70dp"
+                android:text="Maggi Point"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth_bold">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="190dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="370dp"
+        android:background="@color/black"
+        android:paddingLeft="80dp"
+        app:cardBackgroundColor="#83BD75"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="200dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/chaiok"
+            android:layout_width="178dp"
+            android:layout_height="338dp"
+            android:layout_marginEnd="193dp"
+            android:layout_marginBottom="197dp"
+            android:background="@android:color/transparent"
+            android:text="maggi"
+            android:textColor="@android:color/transparent">
+
+        </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                android:src="@drawable/chaiokimage">
+
+            </ImageView>
+            <TextView
+                android:paddingTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="ChaiOk"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth_bold"
+                android:textAlignment="center">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="370dp"
+        android:background="@color/black"
+        android:paddingLeft="30dp"
+        app:cardBackgroundColor="#83BD75"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="200dp">
+
+        <Button
+            android:id="@+id/quench"
+            android:layout_width="218dp"
+            android:layout_height="346dp"
+            android:layout_marginEnd="193dp"
+            android:layout_marginBottom="197dp"
+            android:background="@android:color/transparent"
+            android:text="kathi junction"
+            android:textColor="@android:color/transparent">
+        </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="193dp"
+                android:layout_height="252dp"
+                android:src="@drawable/quenchimage2">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Quench"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:paddingTop="24dp"
+                android:fontFamily="@font/amaranth_bold">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
