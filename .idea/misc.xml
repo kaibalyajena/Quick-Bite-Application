@@ -8,13 +8,18 @@
         <entry key="app/src/main/res/layout/activity_kathi_junction.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/activity_maggi.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_order.xml" value="0.14336372847011145" />
         <entry key="app/src/main/res/layout/activity_quench.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/activity_show_detail.xml" value="0.20325142378261146" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.2391304347826087" />
+        <entry key="app/src/main/res/layout/activity_your_orders.xml" value="0.2782943062160327" />
         <entry key="app/src/main/res/layout/fragment_cart.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/fragment_restaurant.xml" value="0.25366363525390623" />
         <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.234375" />
+        <entry key="app/src/main/res/layout/itemdetail.xml" value="0.14336372847011145" />
         <entry key="app/src/main/res/layout/kathi_junction_food_list.xml" value="0.16940460205078126" />
+        <entry key="app/src/main/res/layout/order_sample.xml" value="0.14336372847011145" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.2947916666666667" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1925" />
       </map>

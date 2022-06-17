@@ -3,7 +3,11 @@ package com.kaibalya.quickbite;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,22 +35,19 @@ public class kathiJunction extends AppCompatActivity {
         userList.add(new ModelKathi("chole kulche" ,"₹","80"));
         userList.add(new ModelKathi("chole bhature" ,"₹","75"));
         userList.add(new ModelKathi("panner paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
-        userList.add(new ModelKathi("aloo paratha" ,"₹","60"));
+        userList.add(new ModelKathi("Paneer roll" ,"₹","80"));
+        userList.add(new ModelKathi("Chilli potato" ,"₹","70"));
+        userList.add(new ModelKathi("chole kulche" ,"₹","80"));
+        userList.add(new ModelKathi("chole bhature" ,"₹","75"));
+        userList.add(new ModelKathi("Paneer roll" ,"₹","80"));
+        userList.add(new ModelKathi("Chilli potato" ,"₹","70"));
+        userList.add(new ModelKathi("chole kulche" ,"₹","80"));
+        userList.add(new ModelKathi("chole bhature" ,"₹","75"));
+        userList.add(new ModelKathi("Paneer roll" ,"₹","80"));
+        userList.add(new ModelKathi("Chilli potato" ,"₹","70"));
+        userList.add(new ModelKathi("chole kulche" ,"₹","80"));
+        userList.add(new ModelKathi("chole bhature" ,"₹","75"));
+
 
     }
 
@@ -55,10 +56,10 @@ public class kathiJunction extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(layoutManager);
-        adapter = new Adapter(userList);
+        adapter = new Adapter(userList,this);
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }
 
 
-}
+    }

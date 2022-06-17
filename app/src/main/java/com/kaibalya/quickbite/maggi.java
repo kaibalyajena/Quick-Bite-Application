@@ -53,7 +53,7 @@ public class maggi extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         layoutManager.setOrientation(RecyclerView.VERTICAL);
         recyclerView.setLayoutManager(layoutManager);
-        adapter = new Adapter(userList);
+        adapter = new Adapter(userList,this);
         recyclerView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }

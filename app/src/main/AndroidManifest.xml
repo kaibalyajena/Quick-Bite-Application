@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuickBite">
         <activity
+            android:name=".yourOrders"
+            android:exported="false" />
+        <activity
+            android:name=".showDetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".quench"
             android:exported="false" />
         <activity
@@ -24,8 +30,7 @@
         <activity
             android:name=".splashScreen"
             android:exported="true"
-            android:noHistory="true"
-            >
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,6 +40,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity android:name=".itemActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

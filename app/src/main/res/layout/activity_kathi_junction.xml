@@ -24,7 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#FFD36E"
-        android:layout_marginBottom="8dp">
+        android:layout_marginBottom="8dp"
+        tools:listitem="@layout/kathi_junction_food_list">
 
     </androidx.recyclerview.widget.RecyclerView>
 </androidx.constraintlayout.widget.ConstraintLayout>
